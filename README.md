@@ -18,3 +18,11 @@ You run an `update.sh` script with crontab on your machine (e.g., Linux VPS), wh
   ```
 
   see [crontab examples](https://crontab.guru/examples.html)
+
+  OR
+
+  you can use [nohup](https://www.geeksforgeeks.org/nohup-command-in-linux-with-examples/)
+
+  ```bash
+  nohup bash /self-update-nodejs/update.sh > update.log &
+  ```
