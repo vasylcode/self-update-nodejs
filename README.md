@@ -26,3 +26,5 @@ You run an `update.sh` script with crontab on your machine (e.g., Linux VPS), wh
   ```bash
   nohup bash /self-update-nodejs/update.sh > update.log &
   ```
+
+  but you should update `update.sh` for nohup loop too
